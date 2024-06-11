@@ -1,8 +1,9 @@
 const next = document.querySelector('.next');
 const prev = document.querySelector('.prev');
 const slides = document.querySelectorAll('.slide');
-console.log(typeof slides)
-console.log("slides", slides)
+
+/* console.log(typeof slides)
+console.log("slides", slides) */
 
 let index = 0;
 display(index);
